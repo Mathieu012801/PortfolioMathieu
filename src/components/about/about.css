@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    flex-direction: column;
+    margin-top: 10%;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about h2 {
+    font-size: 24px;
+    color: #333;
+    padding: 20px 0 50px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.about img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about p {
+    font-size: 21px;
+    line-height: 24px;
+    padding: 20px 0;
+    color: #666;
+    width: 30%;
+}
+
+.letter {
+    color: #FAA401;
+    font-weight: bold;
+}

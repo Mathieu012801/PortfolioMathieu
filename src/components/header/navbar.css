@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    margin-bottom: 30px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.nav-links li {
+    padding-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: 	#4169E1;
+}
+
+.letter {
+    color:	#FAA401; /* Couleur bleue pour le texte des éléments avec la classe .letter */
+    font-size: 25px;
+}
+
+.logo {
+    color:black ;
+    font-size: 30px;
+    
+}
+
+.container {
+    min-width: 90%;
+    margin: auto;
+}
