@@ -24,12 +24,9 @@
     transition: color 0.3s ease;
 }
 
-.nav-links li a:hover {
-    color: 	#4169E1;
-}
 
 .letter {
-    color:	#FAA401; /* Couleur bleue pour le texte des éléments avec la classe .letter */
+    color: #19748b;
     font-size: 25px;
 }
 
@@ -43,3 +40,4 @@
     min-width: 90%;
     margin: auto;
 }
+

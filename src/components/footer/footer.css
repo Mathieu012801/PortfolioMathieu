@@ -1,0 +1,73 @@
+/* styles.css */
+
+.footer {
+    background-color: black; /* Fond gris foncé */
+    color: #fff; /* Texte blanc */
+    padding: 40px 0; /* Espacement intérieur pour le contenu */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre */
+  
+    /* Centrer le contenu du footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px; /* Largeur maximale du contenu du footer */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-contact,
+  .footer-social {
+    flex: 1;
+    margin: 0 20px; /* Espacement entre les sections */
+  }
+  
+  .footer h3 {
+    font-size: 20px; /* Taille de police pour les titres */
+    margin-bottom: 15px; /* Espacement sous les titres */
+  }
+  
+  .footer a {
+    color: #fff; /* Liens en blanc */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transition pour les liens */
+  }
+  
+  .footer a:hover {
+    color: #19748b; /* Couleur des liens au survol */
+  }
+  
+  /* Style pour les liens sociaux */
+  .footer-social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-social li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour les liens sociaux */
+  .footer-social a {
+    font-size: 18px; /* Taille de police pour les liens sociaux */
+    display: inline-block;
+    margin-right: 10px; /* Espacement entre les icônes */
+  }
+  
+  /* Style pour le numéro de téléphone */
+  .footer-contact p:last-child {
+    margin-bottom: 0;
+  }
+  @media (max-width: 767px){
+     .footer-content{
+        text-align: center;
+        gap: 50px;
+
+    }
+  }
