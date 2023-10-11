@@ -22,7 +22,7 @@ const Portfolio = [
     titre: "77 events",
     description: " site d'une agence d'évènementiel",
     image: Events,
-    url: "77events-eosin.vercel.app"
+    url: " https://77events-eosin.vercel.app/"
   },
  
   {
