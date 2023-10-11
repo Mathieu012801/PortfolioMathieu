@@ -1,7 +1,7 @@
 import React from 'react';
 import '.././about/about.css';
 import moiImage from './../../assets/moi.webp'; 
-import Typed from 'react-typed';
+
 
 function About() {
   return (
@@ -12,20 +12,6 @@ function About() {
         Je m'appelle Mathieu Delcourt, j'ai 22 ans. Je suis passionné de développement web depuis le lycée.
         Après avoir obtenu mon <span className='letter'>bts éléctronique</span>, j'ai décidé de me lancer pleinement dans cet univers grâce notamment à OpenClassrooms et son parcours
         <span className='letter'>"intégrateur web"</span>. <br /> <br/>
-        <span>Je suis{" "}
-        <Typed className='letter' strings={[
-          "Autonome",
-          "Sociable ",
-            "Agile",
-            "Passionné",
-            "coopératif",
-          "Altruiste"
-        ]}
-        typeSpeed={50}
-        backSpeed={45}
-        loop/>
-
-        </span>
 
       </p>
     </section>
