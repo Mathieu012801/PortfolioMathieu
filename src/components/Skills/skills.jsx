@@ -5,7 +5,7 @@ import { Data } from '../../Data/data';
 
 function Skills() {
   return (
-    <section className='skills_container'>
+    <section className='skills_container' id='compétences'>
       <h2 className='skill_title'>Mes Compétences</h2>
       <div className='skills'>
         {Data[0].competences.map((competence) => (

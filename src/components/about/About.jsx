@@ -5,7 +5,7 @@ import moiImage from './../../assets/moi.webp';
 
 function About() {
   return (
-    <section className='about'>
+    <section className='about' id='Apropos'>
       <h2>à Propos de moi ...</h2>
       <img src={moiImage} alt="Mathieu Delcourt" />
       <p>
