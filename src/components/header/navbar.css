@@ -9,6 +9,7 @@
   background-color: #ffffff;
   position: sticky; /* Ajout de la propriété sticky */
   top: 0; /* Fixer la barre de navigation en haut de la page */
+  z-index: 100;
 }
 
 .nav-links {
@@ -30,7 +31,7 @@
 }
 
 .letter {
-  color: #FF1493;
+  color: #ff1493;
   font-size: 25px;
 }
 
@@ -45,14 +46,44 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.burger {
+  font-size: 25px;
+}
+
+.burger {
+  display: none;
+}
 
 /* Media Query à partir de 600px */
-@media (min-width: 600px) {
+@media (max-width: 768px) {
   .nav-links {
-      flex-direction: row;
+    flex-direction: row;
   }
 
   .nav-links li {
-      margin-right: 30px;
+    margin-right: 30px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    background-color: white;
+    gap: 15px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 20px 10px;
+  }
+
+  .container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
   }
 }
