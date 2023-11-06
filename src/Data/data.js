@@ -1,15 +1,15 @@
-import html from '../assets/hardskills/html.png';
-import css from '../assets/hardskills/css.png';
-import js from '../assets/hardskills/js.png';
-import node from '../assets/hardskills/node.png';
-import react from '../assets/hardskills/react.png';
-import seo from '../assets/hardskills/seo.png';
-import figma from '../assets/hardskills/figma.png';
-import sass from '../assets/hardskills/sass.png';
-import debugg from '../assets/hardskills/debug.png';
-import redux from '../assets/hardskills/redux.png';
-import swagger from '../assets/hardskills/swagger.png';
-import github from '../assets/hardskills/github.png';
+import html from '../assets/hardskills/html.webp';
+import css from '../assets/hardskills/css (1).webp';
+import js from '../assets/hardskills/js.webp';
+import node from '../assets/hardskills/node.webp';
+import react from '../assets/hardskills/react.webp';
+import seo from '../assets/hardskills/seo.webp';
+import figma from '../assets/hardskills/figma.webp';
+import sass from '../assets/hardskills/sass.webp';
+import debugg from '../assets/hardskills/debug.webp';
+import redux from '../assets/hardskills/redux.webp';
+import swagger from '../assets/hardskills/swagger.webp';
+import github from '../assets/hardskills/github.webp';
 
 const Data = [
   {
