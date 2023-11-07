@@ -1,14 +1,13 @@
-/* Styles de base pour les écrans de toutes tailles */
+/* Nouveau style de navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
-  box-shadow: 0 30px 30px -20px rgba(50, 50, 93, 0.23);
-  margin-bottom: 30px;
-  background-color: #ffffff;
-  position: sticky; /* Ajout de la propriété sticky */
-  top: 0; /* Fixer la barre de navigation en haut de la page */
+  
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #3498db; 
+  position: sticky;
+  top: 0;
   z-index: 100;
 }
 
@@ -20,13 +19,17 @@
 
 .nav-links li {
   margin-right: 20px;
+  transition: transform 0.3s ease; 
 }
+
+.nav-links li:hover {
+  transform: scale(1.1);
+ }
 
 .nav-links li a {
   text-decoration: none;
-  color: #333;
+  color: #fff; 
   text-transform: uppercase;
-  transition: color 0.3s ease;
   font-weight: bold;
 }
 
@@ -36,7 +39,7 @@
 }
 
 .logo {
-  color: #000;
+  color: #fff;
   font-size: 30px;
   font-weight: bold;
 }
@@ -46,6 +49,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .burger {
   font-size: 25px;
 }
@@ -54,7 +58,7 @@
   display: none;
 }
 
-/* Media Query à partir de 600px */
+
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: row;
@@ -70,7 +74,7 @@
 
   .nav-links {
     flex-direction: column;
-    background-color: white;
+    background-color: #3498db;
     gap: 15px;
     width: 100%;
     position: absolute;

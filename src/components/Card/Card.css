@@ -1,15 +1,14 @@
-
-
 .card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   padding: 14px 0;
   width: 100%;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
   background-color: black;
 }
-.cards{
+
+.cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -17,65 +16,57 @@
   justify-content: center;
   align-items: center;
 }
-.card_title{
-  font-size: 30px;
-  margin: 10px;
 
+.card_title {
+  font-size: 24px;
+  margin: 10px;
 }
-.card_description{
-  font-size: 25px;
+
+.card_description {
+  font-size: 20px;
 }
 
 .projet {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 14px;
-  width: 45%;
-  text-align: center;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
-  height: auto;
-  gap: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 45%;
+  height: auto;
+  padding: 14px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
   background: linear-gradient(to bottom, #19748b, #E6DADA);
-
-  
-  
 }
-
 
 .projet:hover {
   transform: scale(1.05);
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-
-
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .projet img {
-width: 100%;
-object-fit:cover;
-height: 100%;
-filter: grayscale(1);
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1);
 }
-.projet img:hover{
+
+.projet img:hover {
   filter: grayscale(0);
 }
 
-
-
 p {
   font-family: 'Arial', sans-serif;
-  font-size: 1rem;
-  color: #777; 
+  font-size: 0.9rem;
+  color: #777;
 }
 
 .lien-projet {
   display: inline-block;
-  margin-top: 15px;
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -83,16 +74,15 @@ p {
   border-radius: 25px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out;
-  /* position: absolute;
-  bottom: 2px;
-  left: 35%; */
+  margin-top: 15px;
 }
 
 .lien-projet:hover {
   background-color: #0056b3;
 }
-@media (max-width:768px){
-  .projet{
+
+@media (max-width: 768px) {
+  .projet {
     width: 100%;
     margin: 0 5px;
   }

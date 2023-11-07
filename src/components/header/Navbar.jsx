@@ -32,41 +32,47 @@ function Navbar() {
   }, []);
 
   return (
+    <header>
     <nav className="navbar">
       <div className="container">
         <h3 className="logo">Mathieu Delcourt</h3>
-        <i className="fa-solid fa-bars burger" onClick={toggleMenu}></i>
+        <i
+          className="fa-solid fa-bars burger"
+          onClick={toggleMenu}
+          aria-label="Menu"
+        ></i>
         {viewLinks && (
-          <ul className="nav-links ">
+          <ul className="nav-links">
             <li onClick={toggleMenu}>
-              <Link to="/">
+              <Link to="/" aria-label="Accueil">
                 <span className="letter">A</span>ccueil
               </Link>
             </li>
             <li onClick={toggleMenu}>
-              <a href="#Apropos">
+              <a href="#Apropos" aria-label="À Propos">
                 <span className="letter">A</span>Propos
               </a>
             </li>
             <li onClick={toggleMenu}>
-              <a href="#compétences">
+              <a href="#compétences" aria-label="Compétences">
                 <span className="letter">C</span>ompétences
               </a>
             </li>
             <li onClick={toggleMenu}>
-              <a href="#projets">
+              <a href="#projets" aria-label="Projets">
                 <span className="letter">P</span>rojets
               </a>
             </li>
             <li onClick={toggleMenu}>
-              <a href="#contact">
+              <a href="#contact" aria-label="Contact">
                 <span className="letter">C</span>ontact
               </a>
             </li>
           </ul>
         )}
       </div>
-    </nav>
+      </nav>
+      </header>
   );
 }
 

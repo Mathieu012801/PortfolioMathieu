@@ -2,7 +2,7 @@ import React from 'react';
 import Portfolio from '../../Data/Projet';
 import './Card.css';
 
-function Caroussel() {
+function Card() {
   return (
     <section className="card-container" id='projets'>
       <h2>Mes projets</h2>
@@ -22,6 +22,7 @@ function Caroussel() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="lien-projet"
+                aria-label={`Voir le projet : ${projet.titre}`}
               >
                 Voir le projet
               </a>
@@ -34,4 +35,4 @@ function Caroussel() {
   );
 }
 
-export default Caroussel;
+export default Card;
