@@ -3,23 +3,21 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px;
+  padding: 85px;
   flex-direction: column;
   background: black;
 }
 
 .hero h1 {
-  font-size: 56px; 
+  font-size: 48px;
   color: whitesmoke;
   font-weight: bold;
-  letter-spacing: 2px;
 }
 
 .hero p {
   margin-top: 20px;
-  font-size: 28px; /* Augmentation de la taille de la police */
+  font-size: 24px;
   color: whitesmoke;
-  font-weight: bold;
 }
 
 .bold {
@@ -28,13 +26,13 @@
 }
 
 .hero__button {
-  border: none;
   border-radius: 50px;
   margin-top: 50px;
-  padding: 20px 40px;
+  padding: 15px 30px;
   cursor: pointer;
   background: linear-gradient(to right, #19748b, #E6DADA);
-  color: whitesmoke;
+  border: none;
+  color: black;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
@@ -44,10 +42,24 @@
 
 .hero__button:hover {
   background: #19748b;
+  color: whitesmoke;
 }
 
 @media (max-width: 600px) {
   .hero {
-    margin-top: -10%;
+    padding: 50px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
+  .hero__button {
+    margin-top: 30px;
+    padding: 15px 30px;
   }
 }
