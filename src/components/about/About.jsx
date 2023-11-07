@@ -6,7 +6,7 @@ import moiImage from './../../assets/moi.webp';
 function About() {
   return (
     <section className='about' id='Apropos'>
-      <h2>à Propos de moi ...</h2>
+      <h2 className='about_title'>à Propos de moi ...</h2>
       <img src={moiImage} alt="Mathieu Delcourt" aria-label="Photo de Mathieu Delcourt" />
       <p>
         Je m'appelle Mathieu Delcourt, j'ai 22 ans. Je suis passionné de développement web depuis le lycée.

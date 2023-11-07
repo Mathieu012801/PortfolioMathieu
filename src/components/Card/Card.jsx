@@ -5,7 +5,7 @@ import './Card.css';
 function Card() {
   return (
     <section className="card-container" id='projets'>
-      <h2>Mes projets</h2>
+      <h2 className='projet_title'>Mes projets</h2>
       <div className="cards">
       {Portfolio.map((projet) => (
         <div className="projet" key={projet.id}>
