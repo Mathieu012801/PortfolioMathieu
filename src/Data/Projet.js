@@ -8,21 +8,24 @@ const Portfolio = [
     titre: "Booki",
     description: " Site d'une agence de voyage Marseille",
     image: Booki,
-    url: "https://booki-gamma-two.vercel.app/"
+    url: "https://booki-gamma-two.vercel.app/",
+    tags: "HTML, CSS"
   },
   {
     id: "2",
     titre: "Oh my food",
-    description: "Site de reservation",
+    description: "Site de reservation avec animations",
     image: OMF,
-    url: "https://ohmyfood-mauve.vercel.app/"
+    url: "https://ohmyfood-mauve.vercel.app/",
+    tags: "HTML,CSS"
   },
   {
     id: "3",
     titre: "77 events",
     description: " site d'une agence d'évènementiel",
     image: Events,
-    url: " https://77events-eosin.vercel.app/"
+    url: " https://77events-eosin.vercel.app/",
+    tags: "REACT"
   },
  
   {
@@ -30,7 +33,8 @@ const Portfolio = [
     titre: "Kasa",
     description: " site d'une agence immobilière",
     image: Kasa,
-    url : "https://github.com/Mathieu012801/Kasa.git"
+    url: "https://github.com/Mathieu012801/Kasa.git",
+    tags:"REACT"
   },
 
 ];

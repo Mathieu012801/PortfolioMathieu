@@ -14,6 +14,9 @@ function Card() {
           <div className="info-container">
             <h3 className='card_title'>{projet.titre}</h3>
             <p className='card_description'>{projet.description}</p>
+            <ul>
+              <li className='card_tags'>{projet.tags}</li>
+             </ul>
           </div>
           <div className="boutons-projet">
             {projet.url && (

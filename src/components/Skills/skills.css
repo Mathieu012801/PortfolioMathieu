@@ -1,10 +1,9 @@
-/* skills.css */
-
 .skills_container {
   background-color: black;
   padding: 40px 0;
   text-align: center;
   width: 100%;
+  overflow: hidden;
 }
 
 .skill_title {
@@ -32,15 +31,12 @@
   background: #f4f4f4;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  transition: transform 0.2s ease;
   cursor: pointer;
-  transition: all 0.4s ease;
+  overflow: hidden;
 }
 
 .skill_cards:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.3);
-  background: #e6e6e6;
+  background: powderblue; /* Couleur lorsque la souris passe dessus */
 }
 
 .skill_img {
@@ -55,4 +51,8 @@
   margin-top: 20px;
   font-size: 24px;
   color: #333;
+}
+
+.skill_cards:hover .skill_description {
+  color:#ff1493,
 }

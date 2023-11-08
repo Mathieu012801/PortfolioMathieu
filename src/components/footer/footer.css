@@ -1,19 +1,21 @@
 /* styles.css */
 
 .footer {
-    background-color: black; /* Fond gris foncé */
-    color: #fff; /* Texte blanc */
-    padding: 40px 0; /* Espacement intérieur pour le contenu */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre */
+  position: relative;
+    background-color: black; 
+    color: #fff; 
+    padding: 40px 0; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
   
-    /* Centrer le contenu du footer */
+
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .container {
-    max-width: 1200px; /* Largeur maximale du contenu du footer */
+    max-width: 1200px; 
   }
   
   .footer-content {
@@ -25,25 +27,25 @@
   .footer-contact,
   .footer-social {
     flex: 1;
-    margin: 0 20px; /* Espacement entre les sections */
+    margin: 0 20px; 
   }
   
   .footer h3 {
-    font-size: 20px; /* Taille de police pour les titres */
-    margin-bottom: 15px; /* Espacement sous les titres */
+    font-size: 20px; 
+    margin-bottom: 15px; 
   }
   
   .footer a {
-    color: #fff; /* Liens en blanc */
+    color: #fff; 
     text-decoration: none;
-    transition: color 0.3s ease; /* Transition pour les liens */
+    transition: color 0.3s ease; 
   }
   
   .footer a:hover {
-    color: #19748b; /* Couleur des liens au survol */
+    color: #19748b; 
   }
   
-  /* Style pour les liens sociaux */
+
   .footer-social ul {
     list-style: none;
     padding: 0;
@@ -53,14 +55,32 @@
     margin-bottom: 10px;
   }
   
-  /* Style pour les liens sociaux */
+  
   .footer-social a {
-    font-size: 18px; /* Taille de police pour les liens sociaux */
+    font-size: 18px; 
     display: inline-block;
-    margin-right: 10px; /* Espacement entre les icônes */
+    margin-right: 10px; 
+  }
+  .arrow{
+    position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 3px;
+  background: #333;
+  color: #ffffff;
+  transition: transform 0.3s;
+  }
+  .arrow:hover {
+    cursor: pointer;
+    transform: scale(1.15);
   }
   
-  /* Style pour le numéro de téléphone */
+  
+
   .footer-contact p:last-child {
     margin-bottom: 0;
   }
