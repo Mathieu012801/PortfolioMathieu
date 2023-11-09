@@ -21,9 +21,8 @@ function Footer() {
           <div className="footer-social">
             <h3>Réseaux sociaux</h3>
             <ul>
-              <li><a href="https://www.linkedin.com/in/votreprofil" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-              <li><a href="https://twitter.com/votreprofil" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-              <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/in/mathieu-delcourt-237332273/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/Mathieu012801" target="_blank" rel="noopener noreferrer">github</a></li>
             </ul>
             <div>
               <span className='arrow'onClick={scrollToTop}>&#8593;</span>
